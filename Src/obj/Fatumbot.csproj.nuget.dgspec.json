@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bip/Dev/Fatum/Server/fatum-http/Fatumbot.csproj": {}
+  },
+  "projects": {
+    "/home/bip/Dev/Fatum/Server/fatum-http/Fatumbot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bip/Dev/Fatum/Server/fatum-http/Fatumbot.csproj",
+        "projectName": "Fatumbot",
+        "projectPath": "/home/bip/Dev/Fatum/Server/fatum-http/Fatumbot.csproj",
+        "packagesPath": "/home/bip/.nuget/packages/",
+        "outputPath": "/home/bip/Dev/Fatum/Server/fatum-http/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bip/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
